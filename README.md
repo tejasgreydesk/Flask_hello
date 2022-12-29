@@ -1,4 +1,4 @@
-# Flask-on-EC2
+# Flask_hello
 
 This repository contains a Flask "Hello World" web app that can quickly be deployed on an Amazon EC2 instance. Instructions on how to configure nginx and uWSGI to work with Flask are below.
 
@@ -31,13 +31,13 @@ This repository contains a Flask "Hello World" web app that can quickly be deplo
 1. Clone this repository.
 
  ```
- git clone https://github.com/kennysong/Flask-on-EC2
+ git clone https://github.com/tejasgreydesk/Flask_hello.git
  ```
 
 2. Move the `demoapp` subdirectory to `/var/www/` and chown it.
 
  ```
- sudo mv Flask-on-EC2/demoapp /var/www/demoapp
+ sudo mv Flask_hello/demoapp /var/www/demoapp
  sudo chown -R ubuntu:www-data /var/www/demoapp
  ```
 
